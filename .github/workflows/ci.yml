@@ -29,7 +29,7 @@ jobs:
       - name: Run pytest
         env:
           PYTHONPATH: day3_pipeline
-        run: pytest test/
+        run: pytest day3_pipeline/test/
 
 
       - name: Execute Pipeline
