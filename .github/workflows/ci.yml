@@ -28,7 +28,7 @@ jobs:
 
       - name: Run pytest
         env:
-          PYTHONPATH: day3_pipeline
+          PYTHONPATH: ${{ github.workspace }}
         run: pytest day3_pipeline/test/
 
 
